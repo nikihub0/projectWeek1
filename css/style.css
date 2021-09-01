@@ -2,3 +2,16 @@
 body {
     font-family: 'Playfair Display';
 }
+
+#footer {
+  background-image: ('picsFirstProject\photoshop\design-assets\bgk-footer.png') ;
+} 
+
+.container {
+    display: inline-flex;
+}
+
+.box {
+
+}
+
