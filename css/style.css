@@ -1,17 +1,210 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     font-family: 'Playfair Display';
 }
 
-#footer {
-  background-image: ('picsFirstProject\photoshop\design-assets\bgk-footer.png') ;
-} 
-
-.container {
-    display: inline-flex;
+#header {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.box {
 
+/*  Content goes here - by Chris */
+
+#div-content {
+    height: 34rem;
 }
 
+.about {
+    margin: 5rem 0rem 5rem 0rem;
+}
+
+.story-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.story-logo {
+    margin-right: 3vw;
+    margin-top: 1.5rem;
+}
+
+.story-logo img {
+    max-width: 90%;
+    height: auto;
+}
+
+.our-story {
+    color: #757575;
+    font-size: 14px;
+    width: 30rem;
+}
+
+.our-story p {
+    font-family: 'Roboto';
+}
+
+.our-story h2 {
+    color: #414141;
+}
+
+.our-story button,
+.team button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.our-story button:hover,
+.team button:hover {
+    color: #00c7ba;
+    border: 1px solid #00c7ba;
+}
+
+.watch-story {
+    font-family: 'Roboto';
+    background-image: url('../img/bgk-middle.jpg');
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    min-height: 35rem;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.play-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.play-title {
+    color: seashell;
+}
+
+.play-icon {
+    margin-top: 12rem;
+}
+
+.expertise-wrapper {
+    margin: 0;
+    text-align: center;
+}
+
+.expertise-subline {
+    margin-bottom: 2rem;
+}
+
+.expertise-wrapper>hr {
+    width: 4rem;
+    margin-top: -1rem;
+}
+
+.expertise-wrapper h2 {
+    margin-bottom: -0.5rem;
+}
+
+.expertise-topics {
+    font-family: 'Roboto';
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0rem 11rem;
+    margin-top: 3rem;
+}
+
+.expertise-item {
+    color: #757575;
+    width: 20rem;
+    padding: 1rem 1.5rem;
+}
+
+.expertise-item h5 {
+    color: #414141;
+}
+
+.team-wrapper {
+    background-image: url('../img/bgk-header.jpg');
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    min-height: 40rem;
+}
+
+.team-wrapper h2 {
+    color: seashell;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: -0.5rem;
+    padding-top: 2rem;
+}
+
+.team-subline {
+    font-size: 14px;
+    font-weight: 300;
+    color: seashell;
+    text-align: center;
+}
+
+.team-wrapper>hr {
+    color: seashell;
+    width: 4rem;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.team-member {
+    color: seashell;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 16rem;
+    width: 12rem;
+    margin: 0rem -22rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px #000;
+}
+
+.team-member p {
+    margin: 0;
+}
+
+.team-member img {
+    max-width: 192px;
+    border-bottom: 1px solid rgba(240, 240, 240, 0.4);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.team-member img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: 1s;
+}
+
+.team-paragraph {
+    color: seashell;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.team button {
+    margin-left: 46%;
+    margin-top: 1rem;
+}
