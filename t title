@@ -1,0 +1,84 @@
+[33mcommit bafec6edbaf25c2bf0222321adb127aa5579ecd4[m[33m ([m[1;36mHEAD -> [m[1;32mbranch-chris[m[33m, [m[1;31morigin/branch-chris[m[33m)[m
+Author: Christian Moskill <cborek@web.de>
+Date:   Fri Sep 3 16:30:15 2021 +0200
+
+    Style angepasst und Index auch
+
+[1mdiff --git a/css/style.css b/css/style.css[m
+[1mindex 9ada628..7a83e87 100644[m
+[1m--- a/css/style.css[m
+[1m+++ b/css/style.css[m
+[36m@@ -118,17 +118,18 @@[m [mbody {[m
+ .expertise-topics {[m
+     font-family: 'Roboto';[m
+     display: flex;[m
+[31m-    align-items: baseline;[m
+[32m+[m[32m    align-items: stretch;[m
+     flex-wrap: wrap;[m
+     justify-content: center;[m
+     padding: 0rem 11rem;[m
+[31m-    margin-top: 3rem;[m
+[32m+[m[32m    margin-top: 5rem;[m
+ }[m
+ [m
+ .expertise-item {[m
+     color: #757575;[m
+[31m-    width: 20rem;[m
+[32m+[m[32m    width: 18rem;[m
+     padding: 1rem 1.5rem;[m
+[32m+[m[32m    border: 1px solid #ccc;[m
+ }[m
+ [m
+ .expertise-item h5 {[m
+[36m@@ -195,7 +196,7 @@[m [mbody {[m
+ .team-member img:hover {[m
+     -webkit-filter: grayscale(0%);[m
+     filter: grayscale(0%);[m
+[31m-    transition: 1s;[m
+[32m+[m[32m    transition: 0.7s;[m
+ }[m
+ [m
+ .team-paragraph {[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 1bad510..2bc1e1f 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -42,32 +42,32 @@[m
+                     <p class="expertise-subline">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>[m
+                     <hr/>[m
+                     <div class="expertise-topics">[m
+[31m-                        <div class="expertise-item">[m
+[32m+[m[32m                        <div class="expertise-item" style="border-left: none; border-top:none">[m
+                             <img src="img/screen.png" alt="Web design & development">[m
+                             <h5>WEB DESIGN & DEVELOPMENT</h5>[m
+                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>[m
+                         </div>[m
+[31m-                        <div class="expertise-item">[m
+[32m+[m[32m                        <div class="expertise-item" style="border-top:none">[m
+                             <img src="img/pen.png" alt="Branding identity">[m
+                             <h5>BRANDING IDENTITY</h5>[m
+                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>[m
+                         </div>[m
+[31m-                        <div class="expertise-item">[m
+[32m+[m[32m                        <div class="expertise-item" style="border-right: none; border-top:none">[m
+                             <img src="img/mobile.png" alt="Mobile app">[m
+                             <h5>MOBILE APP</h5>[m
+                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>[m
+                         </div>[m
+[31m-                        <div class="expertise-item">[m
+[32m+[m[32m                        <div class="expertise-item" style="border-left: none; border-bottom:none">[m
+                             <img src="img/graph.png" alt="Search engine optimization">[m
+                             <h5>SEARCH ENGINE OPTIMIZATION</h5>[m
+                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>[m
+                         </div>[m
+[31m-                        <div class="expertise-item">[m
+[32m+[m[32m                        <div class="expertise-item" style="border-bottom:none">[m
+                             <img src="img/gameboy.png" alt="Game development">[m
+                             <h5>GAME DEVELOPMENT</h5>[m
+                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>[m
+                         </div>[m
+[31m-                        <div class="expertise-item">[m
+[32m+[m[32m                        <div class="expertise-item" style="border-right: none; border-bottom:none">[m
+                             <img src="img/heart.png" alt="Made with love">[m
+                             <h5>MADE WITH LOVE</h5>[m
+                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>[m
