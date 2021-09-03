@@ -208,3 +208,7 @@ body {
     margin-left: 46%;
     margin-top: 1rem;
 }
+
+.footer-items {
+    background-image: url("../bgk-footer.png");
+}
