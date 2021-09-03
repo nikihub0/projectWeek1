@@ -118,17 +118,18 @@ body {
 .expertise-topics {
     font-family: 'Roboto';
     display: flex;
-    align-items: baseline;
+    align-items: stretch;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0rem 11rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .expertise-item {
     color: #757575;
-    width: 20rem;
+    width: 18rem;
     padding: 1rem 1.5rem;
+    border: 1px solid #ccc;
 }
 
 .expertise-item h5 {
@@ -195,7 +196,7 @@ body {
 .team-member img:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .team-paragraph {
