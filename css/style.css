@@ -1,8 +1,96 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    font-family: 'Playfair Display';
+	font-family: "Playfair Display";
+	background-color: lightcyan;
+	margin: 0px;
 }
+
+#div-header {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-image: url("../bgk-header.png");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 4em;
+	margin-left: -3em;
+}
+
+.navbar .logo-text {
+	color: aqua;
+	font-weight: lighter;
+	font-family: "roboto";
+	font-weight: lighter;
+	padding-left: 10px;
+}
+
+.navbar .nav-left {
+	color: aqua;
+}
+
+.navigation {
+	margin-left: 25%;
+}
+
+.navigation a {
+	margin-left: 1rem;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	font-size: small;
+	color: #ffffff;
+	font-family: "roboto";
+}
+
+.box {
+	display: table;
+	justify-content: center;
+	align-content: center;
+	color: lightgrey;
+	text-align: center;
+	padding-bottom: 3em;
+}
+
+.box .bold-text {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+hr {
+	border: solid aqua 1px;
+	width: 2em;
+}
+
+.box .intro-text {
+	font-size: 1em;
+	font-family: "roboto";
+}
+
+button {
+	border: 1px solid #00ffff;
+	color: #00ffff;
+	padding: 14px 20px;
+	text-align: center;
+	background-color: transparent;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+}
+
 
 #header {
     margin-left: auto;
@@ -118,17 +206,18 @@ body {
 .expertise-topics {
     font-family: 'Roboto';
     display: flex;
-    align-items: baseline;
+    align-items: stretch;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0rem 11rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .expertise-item {
     color: #757575;
-    width: 20rem;
+    width: 18rem;
     padding: 1rem 1.5rem;
+    border: 1px solid #ccc;
 }
 
 .expertise-item h5 {
@@ -195,7 +284,7 @@ body {
 .team-member img:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .team-paragraph {
@@ -208,6 +297,7 @@ body {
     margin-left: 46%;
     margin-top: 1rem;
 }
+
 
 .div-footer {
     background-image: url('bgk-footer.png');
