@@ -208,3 +208,186 @@ body {
     margin-left: 46%;
     margin-top: 1rem;
 }
+
+.div-footer {
+    background-image: url('bgk-footer.png');
+}
+
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+}   
+
+.feedback {    
+    
+    flex-wrap: nowrap;
+
+}
+
+.feedinput {
+    padding: 1rem 3rem 1rem 0;
+    border: solid;
+}
+
+.clients {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    width: 20rem;
+    justify-content: space-around;
+}
+
+
+.client {
+    display:inline;
+}
+
+
+.clients img {
+    max-width: 130px;
+}
+
+.client-button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+#div-footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url("../bgk-footer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem;
+    color: white;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 900px;
+}
+
+/*.footer-left {
+    padding: 10px;
+}
+
+.lettering {
+    display: inline;
+    margin-left: 2rem;
+}
+
+.footer-logo {
+    display:inline-block;
+}*/
+
+.footer-left {
+    margin-top: 30px;
+    font-family: roboto;
+    line-height: 25px;
+    font-weight: 300;
+}
+.heading-left {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.lettering {
+    margin-left: 0.5rem;
+
+}
+
+
+.footer-center h2 {
+    margin-top: 30px;
+    font-family: roboto;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.footer-center {
+    padding: 10px;
+}
+
+.addr {
+    display: inline;
+}
+
+.address-icons {
+    display: inline;
+ }
+
+ .footer-right {
+    padding: 10px;
+ }
+
+.footer-right h2 {
+    margin-top: 30px;
+    font-family: 'roboto';
+    line-height: 25px;
+    font-weight: 300;
+}
+
+#email {
+    display: inline;
+    margin-bottom: 10px;
+}
+
+#email input[type=text] {
+    height: 15px;
+    margin-bottom: 0.8rem;
+    background: transparent;
+    color: white;
+    padding: 0.5rem;
+    border: white solid;
+}
+
+.subbutton img {
+    opacity: 30%;
+    padding: 0.5rem;
+}
+
+.subbutton {
+    opacity: 30%;
+}
+.social-icons {
+    
+}
+
+.footer-copyright {
+        display: flex;
+        margin-top: 0px;
+        font-family: roboto;
+        line-height: 25px;
+        font-weight: 300;
+        flex-direction: row;
+        padding: inherit;
+        width: 900px;
+    }
+    
+    a {
+    margin: 0 2rem 0rem 1.7rem;
+}
+
+.copyright{
+    margin: 0 0rem 0 12rem;
+}
