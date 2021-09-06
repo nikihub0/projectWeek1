@@ -1,96 +1,93 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 body {
-	font-family: "Playfair Display";
-	background-color: lightcyan;
-	margin: 0px;
+    font-family: "Playfair Display";
+    background-color: lightcyan;
+    margin: 0px;
 }
 
 #div-header {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	background-image: url("../bgk-header.png");
-	height: 500px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url("../img/bgk-header.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	margin-bottom: 4em;
-	margin-left: -3em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4em;
+    margin-left: -3em;
 }
 
 .navbar .logo-text {
-	color: aqua;
-	font-weight: lighter;
-	font-family: "roboto";
-	font-weight: lighter;
-	padding-left: 10px;
+    color: aqua;
+    font-weight: lighter;
+    font-family: "roboto";
+    font-weight: lighter;
+    padding-left: 10px;
 }
 
 .navbar .nav-left {
-	color: aqua;
+    color: aqua;
 }
 
 .navigation {
-	margin-left: 25%;
+    margin-left: 25%;
 }
 
 .navigation a {
-	margin-left: 1rem;
-	font-weight: 700;
+    margin-left: 1rem;
+    font-weight: 700;
 }
 
 a {
-	text-decoration: none;
-	font-size: small;
-	color: #ffffff;
-	font-family: "roboto";
+    text-decoration: none;
+    font-size: small;
+    color: #ffffff;
+    font-family: "roboto";
 }
 
 .box {
-	display: table;
-	justify-content: center;
-	align-content: center;
-	color: lightgrey;
-	text-align: center;
-	padding-bottom: 3em;
+    display: table;
+    justify-content: center;
+    align-content: center;
+    color: lightgrey;
+    text-align: center;
+    padding-bottom: 3em;
 }
 
 .box .bold-text {
-	font-family: Georgia;
-	font-weight: bold;
-	font-size: 2em;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 hr {
-	border: solid aqua 1px;
-	width: 2em;
+    border: solid aqua 1px;
+    width: 2em;
 }
 
 .box .intro-text {
-	font-size: 1em;
-	font-family: "roboto";
+    font-size: 1em;
+    font-family: "roboto";
 }
 
 button {
-	border: 1px solid #00ffff;
-	color: #00ffff;
-	padding: 14px 20px;
-	text-align: center;
-	background-color: transparent;
-	display: inline-block;
-	font-size: 12px;
-	font-weight: bold;
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    padding: 14px 20px;
+    text-align: center;
+    background-color: transparent;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
 }
-
 
 #header {
     margin-left: auto;
@@ -298,22 +295,17 @@ button {
     margin-top: 1rem;
 }
 
-
 .div-footer {
-    background-image: url('bgk-footer.png');
+    background-image: url('../img/bgk-footer.jpg');
 }
-
-
 
 .contact {
     display: flex;
     justify-content: center;
-}   
+}
 
-.feedback {    
-    
+.feedback {
     flex-wrap: nowrap;
-
 }
 
 .feedinput {
@@ -330,11 +322,9 @@ button {
     justify-content: space-around;
 }
 
-
 .client {
-    display:inline;
+    display: inline;
 }
-
 
 .clients img {
     max-width: 130px;
@@ -357,7 +347,7 @@ button {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-image: url("../bgk-footer.png");
+    background-image: url("../img/bgk-footer.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -366,12 +356,13 @@ button {
 }
 
 .footer-items {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
 }
+
 
 /*.footer-left {
     padding: 10px;
@@ -392,20 +383,18 @@ button {
     line-height: 25px;
     font-weight: 300;
 }
+
 .heading-left {
     display: flex;
     flex-direction: row;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-end;
-
 }
 
 .lettering {
     margin-left: 0.5rem;
-
 }
-
 
 .footer-center h2 {
     margin-top: 30px;
@@ -424,11 +413,11 @@ button {
 
 .address-icons {
     display: inline;
- }
+}
 
- .footer-right {
+.footer-right {
     padding: 10px;
- }
+}
 
 .footer-right h2 {
     margin-top: 30px;
@@ -459,25 +448,20 @@ button {
 .subbutton {
     opacity: 30%;
 }
-.social-icons {
-    
-}
+
+.social-icons {}
 
 .footer-copyright {
-        display: flex;
-        margin-top: 0px;
-        font-family: roboto;
-        line-height: 25px;
-        font-weight: 300;
-        flex-direction: row;
-        padding: inherit;
-        width: 900px;
-    }
-    
-    a {
-    margin: 0 2rem 0rem 1.7rem;
+    display: flex;
+    margin-top: 0px;
+    font-family: roboto;
+    line-height: 25px;
+    font-weight: 300;
+    flex-direction: row;
+    padding: inherit;
+    width: 900px;
 }
 
-.copyright{
+.copyright {
     margin: 0 0rem 0 12rem;
 }
