@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap");
+
+body {
+	font-family: "Playfair Display";
+	background-color: lightcyan;
+	margin: 0px;
+}
+
+#div-header {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-image: url("../bgk-header.png");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 4em;
+	margin-left: -3em;
+}
+
+.navbar .logo-text {
+	color: aqua;
+	font-weight: lighter;
+	font-family: "roboto";
+	font-weight: lighter;
+	padding-left: 10px;
+}
+
+.navbar .nav-left {
+	color: aqua;
+}
+
+.navigation {
+	margin-left: 25%;
+}
+
+.navigation a {
+	margin-left: 1rem;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	font-size: small;
+	color: #ffffff;
+	font-family: "roboto";
+}
+
+.box {
+	display: table;
+	justify-content: center;
+	align-content: center;
+	color: lightgrey;
+	text-align: center;
+	padding-bottom: 3em;
+}
+
+.box .bold-text {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+hr {
+	border: solid aqua 1px;
+	width: 2em;
+}
+
+.box .intro-text {
+	font-size: 1em;
+	font-family: "roboto";
+}
+
+button {
+	border: 1px solid #00ffff;
+	color: #00ffff;
+	padding: 14px 20px;
+	text-align: center;
+	background-color: transparent;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+}
